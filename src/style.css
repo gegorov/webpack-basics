@@ -2,3 +2,9 @@ h1 {
   font-family: Arial;
   color: pink;
 }
+
+#image {
+  background: url('./ski-day.jpg');
+  height: 500px;
+  width: 500px;
+}
