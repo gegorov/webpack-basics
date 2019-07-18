@@ -1,0 +1,35 @@
+{
+  "name": "webpack-basics",
+  "version": "1.0.0",
+  "description": "webpack sandbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gegorov/webpack-basics.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "gegorov",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/gegorov/webpack-basics/issues"
+  },
+  "homepage": "https://github.com/gegorov/webpack-basics#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
